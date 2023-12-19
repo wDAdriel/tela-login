@@ -11,14 +11,17 @@
         <h1 class="titulo">Banco de Dados</h1>        
     </header>
     
-    <section>
-        <div class="tela-login">
-            <h1 class="login">LOGIN</h1>
-            <input type="text" placeholder="Nome"><br><br>
-            <input type="password" placeholder="Senha"><br><br>
-            <button>Enviar</button>
-        </div>
-    </section> 
+    <form action="" method="POST">
+        <section>
+            <div class="tela-login">
+                <h1 class="login">LOGIN</h1>
+                <input type="email" name="email" placeholder="E-mail"><br><br>
+                <input type="password" name="senha" placeholder="Senha"><br><br>
+                <input class="inputSubmit" type="submit" name="submit" value="enviar">
+            </div>
+            
+        </section>
+    </form>
     
         
     <footer>

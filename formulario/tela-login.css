@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to left, rgb(0, 90, 117), rgb(61, 143, 250));
+    
 }
 h1.login{
     margin: 0px 0px 50px 0px;
@@ -34,7 +34,8 @@ input{
     border: none;
     outline: none;
 }
-button{
+
+input#inputSubmit{
     background-color: rgb(54, 178, 250);
     border: none;
     padding: 15px;
@@ -43,7 +44,7 @@ button{
     font-size: 15px;
 
 }
-button:hover{
+#inputSubmit:hover{
     background-color: rgb(26, 65, 83);
     color: white;
 }
