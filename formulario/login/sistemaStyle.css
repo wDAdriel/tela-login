@@ -4,11 +4,46 @@
 
 body{font-family: Arial, Helvetica, sans-serif; background-image: linear-gradient(to right, rgb(68, 139, 180), rgb(98, 199, 194),rgb(36, 109, 128));}
 
-header{ text-align: center;}
+header{ text-align: center; padding: 50px; }
    
 body{  width: 600px; margin: 0px auto; text-align: justify; }
     
 main{
     
-}       
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
+    
+}   
+section{
+    width: 500px;
+    padding: 50px;    
+}
+section > h2 {
+    
+    text-align: center;
+    padding: 20px;
+    
+    
+} 
+section > p {
+    text-align: left;
+    
+    padding: 25px 0px;
+} 
+.quad{
+    
+    width: 150px;
+    height: 150px;  
+    border: solid 3px black;
+    background-image: linear-gradient(to right, rgb(68, 139, 180), rgb(98, 199, 194),rgb(36, 109, 128));
+    
+    
+    
+    
+    
+/* alinha o último item a esquerda */
+    
+}
+
     
