@@ -6,9 +6,9 @@
     <title>home</title>
 </head>
 <body>
-    <h1>Bem vindo</h1>
+    <h1>Sistema php com mysql</h1>
     <div>
-        <a href="login/login.php">Login</a>
+        <a href='login.php'>Login</a>
         <a href="formulario.php">Cadastre-se</a>
     </div>
     <div>

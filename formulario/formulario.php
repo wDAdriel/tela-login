@@ -31,6 +31,8 @@
           $senha = $_POST['senha'];
 
           $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,senha,email,telefone,sexo,data_nasc,cidade,estado,endereco) VALUES ('$nome','$senha','$email','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')");
+
+          header('Location: login.php');
     }
     
 ?>
@@ -44,7 +46,7 @@
     
 </head>
 <body>
-<div><a href="login/login.php">voltar</a></div>
+<div><a href="login.php">voltar</a></div>
     <div class="box">
         <form action="formulario.php" method="POST">
             <fieldset>

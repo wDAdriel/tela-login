@@ -4,7 +4,7 @@
     if ((!isset($_SESSION["email"]) == true) and (!isset($_SESSION['senha']) == true)) {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: logion.php');
+        header('Location: login.php');
     }
     $logado = $_SESSION['email'];
 
@@ -21,9 +21,16 @@
     <header>
     <h1>Acessou o Sistema</h1>
     </header>
-    <nav>
-        <a href="http://localhost/php/tela-login/formulario//home.php">HOME</a>
-        <a href="http://localhost/php/tela-login/formulario/login/login.php">LOGIN</a>
+
+    <nav class="sair">
+        <div class="dflex">
+            <a href="sair.php" class="btn" >Sair</a>
+        </div>
+    </nav>    
+    
+    <nav class="nave">
+        <a href="home.php">HOME</a>
+        <a href="login.php">LOGIN</a>
         <a href="#">PERFIL</a>
         <a href="#">CONFIGURAÇÕES</a>
     </nav>
@@ -38,6 +45,7 @@
             <div class="quad">
             </div>
         </section>
+        
     </main>
 </body>
 </html>
