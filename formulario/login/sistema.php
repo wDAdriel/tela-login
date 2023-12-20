@@ -21,6 +21,12 @@
     <header>
     <h1>Acessou o Sistema</h1>
     </header>
+    <nav>
+        <a href="http://localhost/php/tela-login/formulario//home.php">HOME</a>
+        <a href="http://localhost/php/tela-login/formulario/login/login.php">LOGIN</a>
+        <a href="#">PERFIL</a>
+        <a href="#">CONFIGURAÇÕES</a>
+    </nav>
     
     <main>
         <section>
