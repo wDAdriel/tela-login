@@ -1,5 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(68, 139, 180), rgb(98, 199, 194),rgb(36, 109, 128));
+    
     
 }
 h1.login{
@@ -7,25 +9,28 @@ h1.login{
 
 }
 
-h1.titulo{
+header{
+    background-image: linear-gradient(to right, rgb(68, 139, 180), rgb(83, 170, 166),rgb(36, 109, 128));
+    margin: auto;
     text-align: center;
-    margin-top: 5%;
-    font: bold 50pt arial;
-    color: white;
+    font: bold 10pt arial;
+    color: rgb(248, 248, 248);
 
 }
 
 
-div.tela-login{
+div{
+    
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(10, 80, 97, 0.9);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 80px;
-    border-radius: 15px;
+    border-radius: 12px;
     color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
 
 }
 input{
@@ -35,7 +40,7 @@ input{
     outline: none;
 }
 
-input#inputSubmit{
+.inputSubmit{
     background-color: rgb(54, 178, 250);
     border: none;
     padding: 15px;
@@ -44,11 +49,17 @@ input#inputSubmit{
     font-size: 15px;
 
 }
-#inputSubmit:hover{
+.inputSubmit:hover{
     background-color: rgb(26, 65, 83);
     color: white;
+    
 }
 footer{
     text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
     
 }

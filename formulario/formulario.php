@@ -38,12 +38,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario clientes</title>
-    <link rel="stylesheet" href="formestilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Formulario clientes</title> 
+    <link rel="stylesheet" href="stylo.css">
+    
 </head>
 <body>
-    <div><a href="login.php">voltar</a></div>
+<div><a href="login/login.php">voltar</a></div>
     <div class="box">
         <form action="formulario.php" method="POST">
             <fieldset>
@@ -57,7 +58,7 @@
                     <label for="senha" class="labelinput">Senha</label> 
                 </div>
                 <div class="inputBox">
-                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="email" class="labelinput">Email</label>
                 </div>
                 <div class="inputBox">
@@ -87,7 +88,9 @@
                     <input type="text" name="endereco" id="endereço" class="inputUser" required>
                     <label for="endereço" class="labelinput">Endereço</label>
                 </div>
-                <input type="submit" name="submit" id="submit">
+                <div class="inputBox">
+                    <input class="submit" type="submit" name="submit" id="submit">
+                </div>
 
             
             </fieldset>
