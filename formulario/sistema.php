@@ -15,14 +15,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="sistemaStyle.css">
 </head>
 <body>
     <header>
         
     <h1>Acessou o Sistema</h1>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         
-        <menu>
+        <menu id="itens">
             <nav class="sair">
                 <div class="dflex">
                     <a href="sair.php" class="btn" >Sair</a>
@@ -52,5 +54,15 @@
         </section>
         
     </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display ='block'
+            }
+        }
+
+    </script>
 </body>
 </html>
