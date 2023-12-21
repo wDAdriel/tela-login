@@ -3,54 +3,66 @@
 *{ 
     margin: 0px;
     padding: 0px;
-}  
+} 
+
 
 .btn{
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10px 20px;
+    
+    
+    
     text-decoration: none;
-    background-color: rgb(35, 81, 110);
+    background-color: #6b9997;
     border-radius: 5px;
     color: white;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, rgb(68, 139, 180), rgb(98, 199, 194),rgb(36, 109, 128));
+    background-color: #615145;
 }
 
 header{ 
-    text-align: center;
-    padding: 50px; }
+    background-color: #8ab8a8;
+}
 
-.nave{
-    width: 97%;
-    background-color: rgb(63, 105, 124);
+header > h1 {
     text-align: center;
-    border-radius: 10px;
-    margin: 10px 0px;
+}
+
+menu{
+    display: block;
+}
+
+menu ul{
+    list-style-type: none;
+    
+}
+
+menu > ul > li > a {
+    display: block;
     padding: 10px;
-    
-}
-
-nav > a{
-    padding: 0px 20px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #54787d;
+    border-top: 1px solid black;
 }
 
-nav > a:hover{
-    color: black;
-    font-weight: bold;
-    
+menu > ul > li > a:hover{
+    background-color: #8ab8a8;
+    color: white;
 }
-body{  width: 600px; margin: 0px auto; text-align: justify; }
+
+
+body{ 
+    width: 600px;
+    margin: 0px auto;
+    text-align: justify;
+}
     
 main{
     width: 100%;
-    background-color: bisque;
+    margin-top: 10px;
+    background-color: #c6cca5;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
     
@@ -76,14 +88,8 @@ section > p {
     width: 150px;
     height: 150px;  
     border: solid .5px black;
-    background-image: linear-gradient(to right, rgb(180, 163, 68), rgb(143, 199, 98),rgb(36, 128, 71));
-    
-    
-    
-    
-    
-/* alinha o último item a esquerda */
-    
+    background-color: #6b9997;
+   
 }
 
     

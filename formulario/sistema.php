@@ -19,22 +19,27 @@
 </head>
 <body>
     <header>
+        
     <h1>Acessou o Sistema</h1>
+        
+        <menu>
+            <nav class="sair">
+                <div class="dflex">
+                    <a href="sair.php" class="btn" >Sair</a>
+                </div>
+            </nav>
+            <ul>
+                <li><a href="home.php">HOME</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+                <li><a href="#">PERFIL</a></li>
+                <li><a href="#">CONFIGURAÇÕES</a></li>
+            </ul>
+        </menu>
     </header>
 
-    <nav class="sair">
-        <div class="dflex">
-            <a href="sair.php" class="btn" >Sair</a>
-        </div>
-    </nav>    
+        
     
-    <nav class="nave">
-        <a href="home.php">HOME</a>
-        <a href="login.php">LOGIN</a>
-        <a href="#">PERFIL</a>
-        <a href="#">CONFIGURAÇÕES</a>
-    </nav>
-    
+
     <main>
         <section>
             <h2>Assunto</h2>
