@@ -23,10 +23,14 @@
                         <label for="login">Login</label>
                     </div>
                     <div class="campo">
+                        <span class="material-symbols-outlined">Passkey</span>
                         <input type="password" name="senha" id="senha" placeholder="Senha">
-                        <label for="senha">Senha</label>
+                        <label for="senha" id="senha">Senha</label>
+                        
+                        <input type="submit" value="Entar" id="submit">
 
                     </div>
+                    
                
 
             </div>

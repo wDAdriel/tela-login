@@ -26,6 +26,14 @@ Small screens, laptops – 769px — 1024px.
         font-size: 20px;
 
     }
+    input#submit{
+        display: block;
+        margin:30px auto ;
+        width: 250px;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -43,5 +51,12 @@ Small screens, laptops – 769px — 1024px.
         width: 70%;
         
         
+    }
+    input#submit{
+        display: block;
+        margin: 50px auto ;
+        width: 250px;
+        height: 40px;
+        text-align: center;
     }
 }

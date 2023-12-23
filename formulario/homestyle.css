@@ -29,6 +29,9 @@ main{
 
 }
 
+div#formulario{
+    margin: 50px auto;
+}
 section#login{
     position: absolute;
     top: 50%;
@@ -59,9 +62,40 @@ section#login > div#imagem{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+    
 
 }
 
 section#login > div#formulario{
     text-align: center;
+    
 }
+div > input{  
+
+    outline: none;
+    width: 150px;
+    
+
+
+}
+label {
+    
+    width: 30px;
+    display: inline-block;
+     
+        
+    
+}
+form{
+    margin: auto;
+    padding: 10px 0px;
+}
+
+input#submit{
+    display: block;
+    margin:10px auto;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
